@@ -46,7 +46,7 @@ public class cimemaBooking extends BaseTest{
     public void verifybooking(){
         LoginPage loginPage = new LoginPage(driver);
         PurchasePage purchasePage = new PurchasePage(driver);
-        logger.info("Star logging..");
+        logger.info("Star logging");
         loginPage.login("susan", "susansu");
         logger.info("login successfully.");
         logger.info("wait.");
