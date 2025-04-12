@@ -1,0 +1,22 @@
+<suite name = "Test Suite">
+    <test name = "Test Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+<!--            <class name="scripts.demo2"/>-->
+         <class name="scripts.cimemaBooking"/>
+<!--            <methods>-->
+<!--                <include name ="verifylogin"/>-->
+<!--            </methods>-->
+        </classes>
+    </test>
+    <test name = "Test Edge">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <!--            <class name="scripts.demo2"/>-->
+            <class name="scripts.cimemaBooking"/>
+            <!--            <methods>-->
+            <!--                <include name ="verifylogin"/>-->
+            <!--            </methods>-->
+        </classes>
+    </test>
+</suite>
